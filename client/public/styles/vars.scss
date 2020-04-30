@@ -1,0 +1,65 @@
+//colors:
+$red: #e46d4d;
+$green: #2D8048;
+$blue: #818CB3;
+
+$lightgreen: rgba(153, 255, 160, .5);
+$lightred: rgba(255, 131, 131, .5);
+
+$grey: #bababa;
+$lightgrey: #f5f5f5;
+$asidegrey: #fafafa;
+$inputgrey: #e1e1e1;
+
+//MEDIA QUERIES
+
+// Small devices
+@mixin minsm {
+    @media (min-width: 768px) {
+        @content;
+    }
+ }
+@mixin maxsm {
+    @media (max-width: 767px) {
+        @content;
+    }
+ }
+ 
+ // Medium devices
+ @mixin minmd {
+    @media (min-width: 1024px) {
+        @content;
+    }
+ }
+
+ @mixin maxmd {
+    @media (max-width: 1023px) {
+        @content;
+    }
+ }
+ 
+ // Large devices
+ @mixin minlg {
+    @media (min-width: 1240px) {
+        @content;
+    }
+ }
+
+ @mixin maxlg {
+    @media (max-width: 1239px) {
+        @content;
+    }
+ }
+
+  // Extra Large devices
+  @mixin minxl {
+    @media (min-width: 1440px) {
+        @content;
+    }
+ }
+
+ @mixin maxxl {
+    @media (max-width: 1339px) {
+        @content;
+    }
+ }
